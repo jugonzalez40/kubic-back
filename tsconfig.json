@@ -1,4 +1,16 @@
 {
-  "emitDecoratorMetadata": true,
-  "experimentalDecorators": true
+  "compilerOptions": {
+    "lib": [
+      "es2015",
+      "dom",
+      "es2017"
+    ],
+    "module": "commonjs",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true
+  }
 }
